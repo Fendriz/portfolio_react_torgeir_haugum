@@ -1,0 +1,58 @@
+.loginForm {
+    
+    width: 400px;
+    padding: 20px;
+  
+    margin:0 auto;
+}
+.loginForm form {
+  
+    padding: 20px;
+    background-color: $loginform-backgroundColor;
+    border-bottom: 3px solid $loginform-borderColor;
+    
+   
+}
+.loginForm .toggleContainer{
+   
+    display:flex;
+    justify-content: center;
+   
+  
+}
+.loginForm .toggle{
+   
+    background-color: #d6d1d1;
+    
+    width: 120px;
+    text-align: center;
+    color: black;
+    padding: 10px 20px;
+    margin: 0;
+    border: none;
+
+    cursor: pointer;
+}
+.loginForm .active{
+    padding-top: 8px;
+    background-color: $loginform-backgroundColor;
+    color: $loginform-textColor;
+    
+    border-top: 5px solid $loginform-activeColor;
+    
+}
+
+
+.loginForm input[type=text],
+.loginForm input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    
+    box-sizing: border-box;
+}
+.loginForm span {
+    color:#d13131;
+}

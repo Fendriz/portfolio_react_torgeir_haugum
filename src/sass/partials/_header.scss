@@ -1,0 +1,112 @@
+header {
+    z-index: 100;
+    text-align: center;
+}
+.navigation {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+.navigation__links {
+    border-bottom: 2px solid $nav-borderColor;
+    padding: 10px;
+    background-color: $nav-backgroundColor;
+    color: $nav-color;
+}
+
+.navigation__links a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    margin: 10px 0;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.navigation__links a:hover {
+    color: $nav-activeColor;
+}
+.navigation__links .active {
+    color: $nav-activeColor;
+}
+
+.hamburger {
+    background-color: $nav-backgroundColor;
+    color: $nav-color;
+    width: 100%;
+
+    display: none;
+    padding: 10px;
+}
+
+.hamburger .fas {
+    padding: 7px;
+    border-radius: 4px;
+    margin-right: 20px;
+    color: $nav-iconColor;
+    background-color: $nav-activeColor;
+    font-size: 25px;
+}
+
+@media (max-width: 790px) {
+    .hamburger {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        display: block;
+        border-bottom: 2px solid $nav-borderColor;
+        text-align: right;
+    }
+    .hamburger:hover {
+        cursor: pointer;
+    }
+
+    .navigation .navigation__links {
+        display: none;
+        margin-top: 55px;
+    }
+
+    .navigation .navigation__links.responsive {
+        display: block;
+    }
+    .navigation .navigation__links.responsive > a {
+        display: block;
+    }
+
+    .animation {
+        animation: spinning 0.5s;
+    }
+    .animationTopDown {
+        animation: topdown 0.5s;
+    }
+    .animationDownUp {
+        animation: downup 0.5s;
+    }
+
+    @keyframes spinning {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes topdown {
+        from {
+            transform: translateY(-100%);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+    @keyframes downup {
+        from {
+            transform: translateY(0);
+        }
+        to {
+            transform: translateY(-100%);
+        }
+    }
+}

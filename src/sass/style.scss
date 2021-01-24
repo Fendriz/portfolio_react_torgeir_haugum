@@ -1,0 +1,21 @@
+$nav-color: #fefefe;
+$nav-backgroundColor: #383838;
+$nav-borderColor:#fec46c;
+
+$nav-iconColor:#fefefe;
+$nav-activeColor:#51a3bd;
+
+$loginform-backgroundColor:#423d3d;
+$loginform-activeColor:#51a3bd;
+$loginform-textColor:#fefefe;
+$loginform-borderColor:#fec46c;
+
+$cards-backgroundColor:#e3e6e7;
+$cards-textColor:#423d3d;
+
+
+@import "partials/_general";
+@import "partials/_loginform";
+@import "partials/_header";
+@import "partials/_cards";
+@import "partials/_profile";

@@ -1,0 +1,33 @@
+.profile{
+    text-align: center;
+}
+.about-content span {
+    color: #fec46c;
+}
+
+.about-content .card-text {
+    color: #B7B7B7;
+}
+.card {
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 16px #ccc;
+    transition: all 0.4s;
+
+    &:hover {
+        box-shadow: 0 0 0 #ccc;
+    }
+    & img {
+        
+        object-fit: cover;
+    }
+}
+.card-body{
+    background-color: #383838;
+    color: white;
+}
+.card-title{
+    font-size: 40px;
+}
+.card .highlight{
+    color: #fec46c;
+}
