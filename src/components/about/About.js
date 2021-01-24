@@ -9,7 +9,7 @@ import Col from "react-bootstrap/Col";
 function About() {
     return (
         <Row>
-            <Col md={5}>
+            <Col lg={5}>
                 <Profile image={profilepic}>
 
                 </Profile>
@@ -18,7 +18,7 @@ function About() {
                 
                
             </Col>
-            <Col md={7}>
+            <Col lg={7}>
                 <AboutContent>
                 </AboutContent>
             </Col>

@@ -1,5 +1,6 @@
 .profile{
     text-align: center;
+   
 }
 .about-content span {
     color: #fec46c;
@@ -9,20 +10,22 @@
     color: #B7B7B7;
 }
 .card {
+   border: 0;
+    max-width: 500px;
+    margin: 0 auto;
     margin-bottom: 30px;
-    box-shadow: 0px 3px 16px #ccc;
-    transition: all 0.4s;
+   
+   // box-shadow: 0px 3px 16px rgb(82, 82, 82);
+   // transition: all 0.4s;
 
-    &:hover {
-        box-shadow: 0 0 0 #ccc;
-    }
+   
     & img {
         
         object-fit: cover;
     }
 }
 .card-body{
-    background-color: #383838;
+    background-color: #2e2e2e;
     color: white;
 }
 .card-title{
@@ -30,4 +33,12 @@
 }
 .card .highlight{
     color: #fec46c;
+}
+.card-subtitle {
+    font-size: 20px;;
+}
+
+.progress-bar {
+    background-color: #fec46c;
+    color: #B7B7B7;
 }

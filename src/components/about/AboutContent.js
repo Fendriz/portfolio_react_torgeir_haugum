@@ -1,7 +1,11 @@
 import React from 'react';
 import Card from "react-bootstrap/Card";
+import ProgressBar from "react-bootstrap/ProgressBar";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function AboutContent(props) {
+    const now = 60;
     return (
         <Card className="about-content">
             
@@ -18,6 +22,16 @@ function AboutContent(props) {
             <Card.Text>
             For the last two years I have also been taking web development at Noroff online studies.
             </Card.Text>
+            <Row>
+                <Col>
+                    <Card.Subtitle>Skills Control Systems</Card.Subtitle>
+                    <ProgressBar now={now}label={`test ${now}%`} />
+                </Col>
+                <Col>
+                    <Card.Subtitle>Skills Web Development</Card.Subtitle>
+                    <ProgressBar now={now}label={`${now}%`} />
+                </Col>
+            </Row>
             </Card.Body>
 
         </Card>
