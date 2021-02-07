@@ -16,7 +16,7 @@ function Profile({image}) {
 
 				<Link to={"../portfolio" }>
 					<Button block>
-						Noroff
+						Portfolio Noroff
 					</Button>
 				</Link>
 			</Card.Body>

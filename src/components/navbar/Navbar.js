@@ -1,5 +1,6 @@
 import React, { useState} from "react";
 import NavbarTHLinks from "./navbarTHLinks.js"
+
 const classNames = require("classnames");
 
 function NavbarTH(props) {
@@ -46,7 +47,9 @@ function NavbarTH(props) {
 
     return (
         <header>
+           
             <nav className='navigation'>
+      
                 <div className='hamburger' onClick={hamburger}>
                     <i
                         className={classNames(
@@ -70,7 +73,10 @@ function NavbarTH(props) {
                     {props.children}
                    
                 </div>
+          
             </nav>
+           
+            
         </header>
     );
 }

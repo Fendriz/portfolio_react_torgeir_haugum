@@ -2,6 +2,13 @@
     text-align: center;
    
 }
+.profile .card-title{
+    margin-top:40px;
+   
+}
+.card{
+    height: 770px;
+}
 .about-content span {
     color: #fec46c;
 }
@@ -11,7 +18,7 @@
 }
 .card {
    border: 0;
-    max-width: 500px;
+ 
     margin: 0 auto;
     margin-bottom: 30px;
    
@@ -40,5 +47,21 @@
 
 .progress-bar {
     background-color: #fec46c;
-    color: #B7B7B7;
+    color: black;
+}
+
+.skills{
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.skills .card-text{
+    margin: 1rem 0 0 0;
+}
+
+@media (max-width: 992px) {
+
+    .card {
+        max-width: 500px;
+        height: auto;
+    }
 }
