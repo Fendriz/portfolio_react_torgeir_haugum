@@ -53,13 +53,17 @@ function AboutContent(props) {
                 <Col>
                     <Card.Subtitle>Skills Control Systems</Card.Subtitle>
                     <Card.Text>TIA portal</Card.Text>
-                    <ProgressBar now={90}label={`${90}%`} />
+                    <ProgressBar now={90}label={`
+                    ${90}%`} />
                     <Card.Text>Step 7</Card.Text>
-                    <ProgressBar now={95}label={`${95}%`} />
+                    <ProgressBar now={95}label={`
+                    ${95}%`} />
                     <Card.Text>InTouch HMI</Card.Text>
-                    <ProgressBar now={60}label={`${60}%`} />
+                    <ProgressBar now={60}label={`
+                    ${60}%`} />
                     <Card.Text>Intrumentation</Card.Text>
-                    <ProgressBar now={80}label={`${80}%`} />
+                    <ProgressBar now={80}label={`
+                    ${80}%`} />
 
                    
                 </Col>
