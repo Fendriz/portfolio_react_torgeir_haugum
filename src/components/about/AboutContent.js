@@ -27,7 +27,7 @@ function AboutContent(props) {
                 For the last two years I have also been taking front end development at Noroff online studies.
             </Card.Text>
 
-            <Button>Curriculum Vitae PDF</Button>
+            <Button href="http://gather.no/cv/CV-Engelsk-Torgeir.pdf">Curriculum Vitae PDF</Button>
             <Row className="skills">
                 <Col>
                     <Card.Subtitle>Skills Web Development</Card.Subtitle>

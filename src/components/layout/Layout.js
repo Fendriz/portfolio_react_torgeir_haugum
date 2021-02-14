@@ -5,7 +5,7 @@ import {
     Route,
     NavLink,
 } from "react-router-dom";
-import Container from "react-bootstrap/Container";
+
 import NavbarTH from '../navbar/Navbar.js';
 import Contact from '../contact/Contact.js';
 import Portfolio from '../portfolio/Portfolio.js';
@@ -30,18 +30,12 @@ function Layout() {
                 
             </NavbarTH>
 
-         <Container>
+       
          <Switch>
                 <Route path='/' exact component={About} />
                 <Route path='/portfolio' component={Portfolio} />
                 <Route path="/contact" component={Contact} />
-            </Switch>
-         </Container>
-            
-      
-            
-        
-            
+        </Switch>
         </Router>
         
          

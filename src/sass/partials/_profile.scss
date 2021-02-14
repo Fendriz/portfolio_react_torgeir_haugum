@@ -6,19 +6,24 @@
     margin-top:40px;
    
 }
-.card{
-    height: 770px;
+
+.container .about-content {
+    margin-bottom: 180px;
+   
 }
+
+
 .about-content span {
-    color: #fec46c;
+    color: $orange;
+   
 }
 
 .about-content .card-text {
-    color: #B7B7B7;
+    color: $light-gray;
 }
 .card {
    border: 0;
- 
+  
     margin: 0 auto;
     margin-bottom: 30px;
    
@@ -32,21 +37,21 @@
     }
 }
 .card-body{
-    background-color: #2e2e2e;
+    background-color: $gray;
     color: white;
 }
 .card-title{
     font-size: 40px;
 }
 .card .highlight{
-    color: #fec46c;
+    color: $orange;
 }
 .card-subtitle {
     font-size: 20px;;
 }
 
 .progress-bar {
-    background-color: #fec46c;
+    background-color: $orange;
     color: black;
 }
 

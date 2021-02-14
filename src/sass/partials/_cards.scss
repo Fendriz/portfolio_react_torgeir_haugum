@@ -5,9 +5,9 @@
   
 }
 .cards-character{
-    background-color: $cards-backgroundColor;
+    background-color: $gray;
     border-radius: 5px;
-    color:$cards-textColor;
+    color:$white;
     padding:20px;
     margin: 10px;
     text-align: center;
@@ -23,8 +23,8 @@
     font-size: 16px;
    
         
-        background-color: $loginform-activeColor;
-        color: $loginform-textColor;
+        background-color: $blue;
+        color: $white;
         padding: 14px 20px;
         margin: 8px 0;
       
@@ -34,7 +34,7 @@
         cursor: pointer;
 }
 .cards-bar{
-    background-color: $cards-backgroundColor;
+    background-color: $gray;
     border-radius: 5px;
     margin: 20px 10px;
    
@@ -57,10 +57,4 @@
 .cards-select{
     display: inline-block;
     width: 300px;
-}
-.cards-select__menu-list{
-    color:green;
-}
-.cards-select__option{
-    color:green;
 }

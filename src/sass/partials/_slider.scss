@@ -1,0 +1,39 @@
+.slides-container{
+    max-width: 1140px;
+    margin: 20px auto;
+    background-color: $gray;
+    
+}
+.slides-container .awssld__content > img {
+    height: auto;
+    width: 70%;
+   
+    top: 10%;
+    transform: translateY(10%);
+    left:15%;
+    
+}
+
+.slides-container .awssld{
+
+    --slider-height-percentage: 60%;
+    --slider-transition-duration: 700ms;
+    --organic-arrow-thickness: 10px;
+    --organic-arrow-border-radius: 2px;
+    --organic-arrow-height: 30px;
+    --organic-arrow-color: #007bff;
+  
+    --control-button-width: 10%;
+    --control-button-height: 25%;
+    --control-button-background: transparent;
+    --control-bullet-color: white;
+    --control-bullet-active-color: #007bff;
+    --loader-bar-color: #fec46c;
+    --loader-bar-height: 15px;
+    --content-background-color:#423d3d;
+    }
+
+    .slides-container .awssld__controls button {
+  
+    
+}

@@ -1,25 +1,15 @@
 import React from 'react'
 import PortfolioSlides from './PortfolioSlides'
-import design from '../../img/design.png'
-import webcom from '../../img/webcom.png'
-
+import Footer from '../footer/Footer'
 
 const Portefolio = () => {
-    const imgs =[
-        {
-            img: design,
-            alt: 'design'
-        },
-        {
-            url: webcom,
-            alt: 'webcom'
-        }
-    ]
+   
     return (
-        <div>
-            <PortfolioSlides imgs={imgs}>
+        <div class="slides-container">
+            <PortfolioSlides>
 
             </PortfolioSlides>
+            <Footer></Footer>
         </div>
     )
 }

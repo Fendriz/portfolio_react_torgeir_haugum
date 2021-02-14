@@ -1,0 +1,33 @@
+.contact-form {
+   
+    padding: 50px;
+    background-color: $gray;
+}
+.contact-form h1 {
+    color: white;
+    text-align: center;
+}
+.contact-form p {
+    color: $orange;
+    text-align: center;
+    margin-bottom: 40px;;
+}
+
+.contact-form input::placeholder,.contact-form textarea::placeholder{
+    color:$orange;
+}
+.contact-form input , .contact-form textarea{
+    background-color:$black;
+    border: 0;
+    color: white;
+}
+
+.contact-form input:focus , .contact-form textarea:focus {
+    background-color:$black;
+    color:$white;
+  
+}
+.contact-form input:active , .contact-form textarea:active {
+    color:$white;
+  
+}
